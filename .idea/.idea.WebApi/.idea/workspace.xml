@@ -1,10 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eec5f7d4-ff94-43d8-93bd-bb99ea8fd0cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Config/DatabaseContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Controllers/v1/CommentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Controllers/v1/PostController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Models/Dtos/PostDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/WebApi.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/bin/Release/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/staticwebassets/WebApi.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/staticwebassets/WebApi.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/web_api_bdd.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/Release/netcoreapp3.1/WebApi.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/WebApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="web_api_bdd.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="web_api_bdd.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="web_api_bdd.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/ExempleWebAPI/ExempleWebAPI/Models/TodoContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Controllers/v1/PostController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Controllers/v1/CommentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ExempleWebAPI/ExempleWebAPI/Controllers/TodoItemsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7760A3C-30F8-4B75-B285-52A3FEA80370/a0/8e49280d/DeveloperExceptionPageMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19C2CCA0-B8C1-473C-8397-D1E41F304E2A/90/534a585b/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ExempleWebAPI/ExempleWebAPI/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ExempleWebAPI/ExempleWebAPI/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Config/DatabaseContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ExempleWebAPI/ExempleWebAPI/Models/TodoItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Services/IPostService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Dtos/PostDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Dtos/CommentDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623AD323-590B-41E0-B4A1-CCB8F3313607/43/0983c437/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Controllers/ApiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Entities/PostEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Repositories/ICommentRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Entities/CommentEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Requests/CommentRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Models/Responses/CommentResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07ABD478-FD47-463E-ACF1-FAD9F95B66DD/b9/1f1f0c5f/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApi/Repositories/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApi/Models/CommentEntity.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/UserEntity.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/CommentRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/ICommentRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Responses/CommentResponse.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Requests/CommentRequest.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Dtos/CommentDto.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/CommentController.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/v1/V1Controller.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/ApiController.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Dtos/UserEntity.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/GenericRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/IRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Config/ConfigDatabase.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Services/Implementation/UserServiceImpl.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Config/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/v1/CommentController.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/Repository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Repositories/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApi/App.config" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Entities/UserEntity.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/v1/UserController.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Entities/Post.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Services/IPostService.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Dtos/PostDto.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Controllers/v1/PostController.cs" />
+        <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
+        <option value="$PROJECT_DIR$/WebApi/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/WebApi/Config/DatabaseContext.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Entities/PostEntity.cs" />
+        <option value="$PROJECT_DIR$/WebApi/Models/Entities/CommentEntity.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1WcAuk9qAOHIUQjKDY1PBICwaqH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
     <configuration name="WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -37,5 +250,83 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bb90e443" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b5d36bdf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b5d36bdf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2aa99031" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eec5f7d4-ff94-43d8-93bd-bb99ea8fd0cb" name="Default Changelist" comment="" />
+      <created>1579438733065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579438733065</updated>
+      <workItem from="1579438734527" duration="24730000" />
+      <workItem from="1579474469950" duration="1446000" />
+      <workItem from="1579543432403" duration="5200000" />
+      <workItem from="1579550673268" duration="2850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <reveal-manager>
+      <revealed-members>
+        <RevealItemInfo typeName="WebApi.Controllers.v1.UserController" fieldName="dbContext" />
+      </revealed-members>
+    </reveal-manager>
   </component>
 </project>
