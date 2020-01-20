@@ -1,7 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
 namespace WebApi.Models.Entities
 {
@@ -9,9 +9,20 @@ namespace WebApi.Models.Entities
     public class PostEntity
     {
         [Key]
+        [Column("id")]
         public long Id { get; set; }
-        public string Content { get; set; }
+        
+        [Column("title")]
         public string Title { get; set; }
-        public string Author { get; set; }
+        
+        [Column("content", Order = 2)]
+        public string Content { get; set; }
+        
+        [Column("created_at", TypeName = "datetime")]
+        public DateTime CreatedAt { get; set; }
+        
+        [ForeignKey("author_id")]
+        public AuthorEntity Author { get; set; }
+        public ICollection<CommentEntity> Comments { get; set; }
     }
 }

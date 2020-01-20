@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebApi.Config;
+using WebApi.Migrations;
 
 namespace WebApi
 {
@@ -14,6 +15,7 @@ namespace WebApi
             Configuration = configuration;
             using(var client = new DatabaseContext())
             {
+                client.Database.EnsureDeleted();
                 client.Database.EnsureCreated();
             }
         }

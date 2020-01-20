@@ -1,5 +1,3 @@
-using System;
-using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Models;
 using WebApi.Models.Entities;
@@ -15,11 +13,18 @@ namespace WebApi.Config
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<PostEntity>();
-            modelBuilder.Entity<CommentEntity>();
+            modelBuilder.Entity<PostEntity>()
+                .HasMany(c => c.Comments)
+                .WithOne(p => p.Post)
+                .OnDelete(DeleteBehavior.SetNull);
+                ;
+            modelBuilder.Entity<CommentEntity>().HasOne<AuthorEntity>(post => post.Author);
         }
+        
+        
         
         public DbSet<PostEntity> Posts { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }
+        public DbSet<AuthorEntity> Authors { get; set; }
     }
 }

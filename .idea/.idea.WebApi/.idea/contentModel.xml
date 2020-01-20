@@ -22,13 +22,16 @@
             <e p="PostController.cs" t="Include" />
           </e>
         </e>
-        <e p="Migrations" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="DbSeed.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Dtos" t="Include">
             <e p="CommentDto.cs" t="Include" />
             <e p="PostDto.cs" t="Include" />
           </e>
           <e p="Entities" t="Include">
+            <e p="AuthorEntity.cs" t="Include" />
             <e p="CommentEntity.cs" t="Include" />
             <e p="PostEntity.cs" t="Include" />
           </e>
@@ -60,7 +63,6 @@
           <e p="IPostService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="web_api_bdd.db" t="Include" />
         <e p="WebApi.csproj" t="IncludeRecursive" />
       </e>
       <e p="WebApi.sln" t="IncludeFlat" />
