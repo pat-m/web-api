@@ -7,6 +7,10 @@ namespace WebApi.Models.Entities
     [Table("authors")]
     public class AuthorEntity
     {
+        public AuthorEntity()
+        {
+        }
+
         [Key]
         [Column("id")]
         public long Id { get; set; }
@@ -16,8 +20,7 @@ namespace WebApi.Models.Entities
         
         [Column("lastname")]
         public string Lastname { get; set; }
-        
-        [Column("created_at", TypeName = "datetime")]
-        public DateTime CreatedAt { get; set; }
     }
+    
+    
 }

@@ -6,19 +6,21 @@ namespace WebApi.Config
 {
     public class DatabaseContext : DbContext
     {
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=web_api_bdd.db");
+
         }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PostEntity>()
-                .HasMany(c => c.Comments)
-                .WithOne(p => p.Post)
-                .OnDelete(DeleteBehavior.SetNull);
+                .HasMany(c => c.Comments).WithOne(x => x.Post).HasForeignKey(x => x.Id)
                 ;
-            modelBuilder.Entity<CommentEntity>().HasOne<AuthorEntity>(post => post.Author);
+            modelBuilder.Entity<AuthorEntity>();
+            modelBuilder.Entity<CommentEntity>()
+                .HasOne(post => post.Author);
         }
         
         

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace WebApi.Repositories
 {
-    public interface IRepository
+    public interface IRepository<TEntity> where TEntity : class
     {
         Task<List<T>> FindAll<T>() where T : class;
         Task<T> FindById<T>(long id) where T : class;

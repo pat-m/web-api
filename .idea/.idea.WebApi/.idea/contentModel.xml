@@ -54,15 +54,19 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Repositories" t="Include">
+          <e p="IAuthorRepository.cs" t="Include" />
           <e p="ICommentRepository.cs" t="Include" />
+          <e p="IPostRepository.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
-          <e p="IUserRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
-          <e p="Implementation" t="Include" />
-          <e p="IPostService.cs" t="Include" />
+          <e p="PostService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="web_api_bdd.db" t="Include" />
+        <e p="web_api_bdd.db-shm" t="Include" />
+        <e p="web_api_bdd.db-wal" t="Include" />
         <e p="WebApi.csproj" t="IncludeRecursive" />
       </e>
       <e p="WebApi.sln" t="IncludeFlat" />
